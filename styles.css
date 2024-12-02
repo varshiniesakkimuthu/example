@@ -1,0 +1,25 @@
+* {
+    background-color: rgb(156, 223, 245);
+
+    body {
+        font-size: medium;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color:rgb(75, 75, 173);
+        text-align: center;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    img {
+        flex-direction: center;
+    }
+
+    button {
+        color: rgb(156, 223, 245);
+        background-color: rgb(120, 120, 238);
+    }
+    footer{
+        color:rgb(75, 75, 173) ;
+    }

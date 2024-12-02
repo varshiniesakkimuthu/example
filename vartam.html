@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC school Form</title>
+    <style>
+        * {
+            background-color: lightyellow;
+        }
+    </style>
+    <link rel="icon" href="abcschool.png" type="image/x-icon">
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    <header>
+        <h1>ABC School</h1>
+        <nav >
+            <ul>
+                <li><a href="#">Home Page</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Admission</a></li>
+            </ul> 
+        </nav>
+        
+
+    </header>
+
+    <h1> <u>Student Information</u> </h1>
+    <div style=": left;">
+    <p class="tamil"><b>Name</b> : Tamil<br>
+        <b>Age</b> : 16 <br>
+        <b>Class</b> : 10th <br>
+        <b>Section</b> : c
+    </p>
+</div>
+    <hr>
+    <h3> <em>SSLC Marksheet</em></h3>
+    <div>
+
+    <table style="border-collapse: collapse;" border="1">
+        
+        <thead>MARKSHEET</thead>
+        <tr>
+            <th>subjects</th>
+            <th>Internal mark</th>
+            <th>Examination mark</th>
+            <th>total</th>
+        </tr>
+        <tr>
+            <th>English</th>
+            <td>50</td>
+            <td>40</td>
+            <td>90</td>
+        </tr>
+        <tr>
+            <th>tamil</th>
+            <td>30</td>
+            <td>50</td>
+            <td>70</td>
+        </tr>
+    </table>
+</div>
+
+    <hr>
+    <form action="thankyou.html"
+        style="text-align: center; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+        <h2> <i>student 11th group selection form </i></h2> <br>
+        <label for="name">Name:</label> <input type="text" name="tamil " placeholder="your name" required> <br> <br>
+        <label for="Class">Class</label> <input type="text" name="class" placeholder="class"><br> <br>
+        <label for="gender">Gender</label> <input type="radio" name="Gender" id="gender">Male </label>
+        <input type="radio" name="Gender" id="gender">Female <br> <br>
+        <label for="date"> Date of Birth</label>
+        <input type="date" name="date" id="date"> <br> <br>
+        <label for="admission">Select one course</label>
+        <select id="ad">
+            <option value=" ">select one</option>
+            <option value="biology">Biology</option>
+            <option value="computerscience">Computer science</option>
+            <option value="economics">Economics</option>
+            <option value="commerce">Commerce</option>
+        </select><br> <br>
+        <label for="file">Upload your 10th Marksheet:</label>
+        <input type="file" name="file" id="file"><br> <br>
+        <input type="reset" name="reset" id="reset"> <br> <br>
+
+        <input type="submit" value="submit" onclick="alert('Thankyou for Submission')">
+    </form> <br>
+    <hr>
+    <a download="thank.jpg"></a>
+
+<div class="school">
+    <label for="ref" id="enq">For furthur enquiries</label>
+    <a href="#home"
+        alt="Abc school">Click here</a> <br>
+    <hr>
+    <img src="school.jpg" alt="school" style="width:300px;height:300px;">
+    
+
+</div>
+
+</body>
+
+</html>
